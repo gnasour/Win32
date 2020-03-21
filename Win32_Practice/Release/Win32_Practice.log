@@ -1,0 +1,5 @@
+﻿  Source.cpp
+F:\CodingProblems\Win32\Win32_Practice\Source.cpp(18): error C2440: '=': cannot convert from 'const wchar_t [20]' to 'LPCSTR'
+  F:\CodingProblems\Win32\Win32_Practice\Source.cpp(18): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+F:\CodingProblems\Win32\Win32_Practice\Source.cpp(24): error C2664: 'HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const wchar_t [20]' to 'LPCSTR'
+  F:\CodingProblems\Win32\Win32_Practice\Source.cpp(37): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
